@@ -1,0 +1,42 @@
+element.style {
+}
+:root {
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+}
+body {
+    background-color: violet;
+}
+
+html {
+    height: 100%;
+    margin: 0 !important;
+    -webkit-transition: all .33s ease-out;
+    -moz-transition: all .33s ease-out;
+    transition: all .33s ease-out;
+    overflow-y: scroll !important;
+}
+a, abbr, acronym, address, applet, b, big, blockquote, body, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    background: 0 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline: 0;
+}
+html[Attributes Style] {
+    -webkit-locale: "es";
+}
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+::selection {
+    background: #c59d5f;
+    color: violet;
+}
